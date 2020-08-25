@@ -11,23 +11,36 @@
     <title>Hello, world!</title>
   </head>
   <body>
-
-    <div class="bg-dark">
-        <div class=" d-flex justify-content-around  border border-success flex-wrap">
-            <div class="p-1 bd-highlight border border-warning">
+    <!-- Navigation bar -->
+        <div class=" bg-dark d-flex justify-content-around  flex-wrap">
+            <div class="p-1 bd-highlight ">
                 <a class="nav-link" href="#">O nas<span class="sr-only">(current)</span></a>
             </div>
-            <div class="p-1 bd-highlight border border-warning">
+            <div class="p-1 bd-highlight ">
                 <a class="btn btn-success" href="#">Galeria</a>
             </div>
-            <div class="p-1 bd-highlight border border-warning">
+            <div class="p-1 bd-highlight ">
                 <a class="nav-link" href="#">Projekty</a>
             </div>
-            <div class="p-1 bd-highlight border border-warning">
+            <div class="p-1 bd-highlight ">
                 <a class="nav-link" href="#">Kontkat</a>
             </div>
         </div>
-    </div>
+
+    <!-- Carousel -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="./img/first.png" class="d-block w-100" alt="first">
+          </div>
+          <div class="carousel-item">
+              <img src="./img/second.png" class="d-block w-100" alt="second">
+        </div>
+          <div class="carousel-item">
+            <img src="./img/third.png" class="d-block w-100" alt="third">
+          </div>
+        </div>
+      </div>
 
     <!-- Optional JavaScript -->
     
