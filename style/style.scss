@@ -1,6 +1,7 @@
 
 $backgroundcolor_of_logo: #003326;
 $color_of_font_in_logo: #b37700;
+$color_of_font_in_logo_lighter: #e4a425;
 
 .logo_background_color{
     background-color : $backgroundcolor_of_logo;
@@ -9,6 +10,12 @@ $color_of_font_in_logo: #b37700;
     background-color: $color_of_font_in_logo;
 }
 
-a {
+.nav_link{
     color: $color_of_font_in_logo;
+    padding: .5rem 1rem; 
+    display: block;
+}
+.nav_link:hover{
+    color: $color_of_font_in_logo_lighter;
+    text-decoration: none;
 }
