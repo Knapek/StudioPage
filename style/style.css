@@ -1,22 +1,22 @@
 body {
-  background-color: #16261F;
+  background-color: #ffffff;
 }
 
 .logo_background_color {
-  background-color: #16261F;
+  background-color: #ffffff;
 }
 
 .logo_font_color {
-  background-color: #D9AF62;
+  background-color: #313940;
 }
 
 .nav_link {
-  color: #D9AF62;
+  color: #313940;
   padding: 0.5rem 1rem;
   display: block;
 }
 
 .nav_link:hover {
-  color: #F2D680;
+  color: #bf947a;
   text-decoration: none;
 }
