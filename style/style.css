@@ -1,18 +1,22 @@
+body {
+  background-color: #16261F;
+}
+
 .logo_background_color {
-  background-color: #003326;
+  background-color: #16261F;
 }
 
 .logo_font_color {
-  background-color: #b37700;
+  background-color: #D9AF62;
 }
 
 .nav_link {
-  color: #b37700;
+  color: #D9AF62;
   padding: 0.5rem 1rem;
   display: block;
 }
 
 .nav_link:hover {
-  color: #e4a425;
+  color: #F2D680;
   text-decoration: none;
 }

@@ -1,8 +1,11 @@
 
-$backgroundcolor_of_logo: #003326;
-$color_of_font_in_logo: #b37700;
-$color_of_font_in_logo_lighter: #e4a425;
+$backgroundcolor_of_logo: #16261F;
+$color_of_font_in_logo: #D9AF62;
+$color_of_font_in_logo_lighter: #F2D680;
 
+body{
+    background-color: $backgroundcolor_of_logo;
+}
 .logo_background_color{
     background-color : $backgroundcolor_of_logo;
 }
