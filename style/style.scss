@@ -22,3 +22,13 @@ body{
     color: $color_of_font_in_logo_lighter;
     text-decoration: none;
 }
+.btn-link{
+    
+    color: $color_of_font_in_logo;
+    padding: .5rem 1rem; 
+    display: block;
+}
+.btn-link:hover{
+    color: $color_of_font_in_logo_lighter;
+    text-decoration: none;
+}

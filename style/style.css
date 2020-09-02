@@ -20,3 +20,14 @@ body {
   color: #bf947a;
   text-decoration: none;
 }
+
+.btn-link {
+  color: #313940;
+  padding: 0.5rem 1rem;
+  display: block;
+}
+
+.btn-link:hover {
+  color: #bf947a;
+  text-decoration: none;
+}
